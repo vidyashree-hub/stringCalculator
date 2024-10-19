@@ -1,3 +1,4 @@
+function add(params){
 //here using regex remove all non numeric characters including delimeter and whitespaces
 const inputData = params.replace(/[^0-9.-]+/g, ' ');
 //filter out empty string and convert it to an array
